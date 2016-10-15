@@ -1,0 +1,22 @@
+package com.codebind;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import MyCo.mysamples.HelloWorld;
+import junit.framework.Assert;
+
+public class Apptest {
+
+	@Test
+	public void test() {
+		// create instance of HelloWorld class
+        HelloWorld h = new HelloWorld();
+        
+        String result=h.sayHello("Tester");
+        Assert.assertEquals("Not matched...", "Hello Tester", result);
+		
+	}
+
+}

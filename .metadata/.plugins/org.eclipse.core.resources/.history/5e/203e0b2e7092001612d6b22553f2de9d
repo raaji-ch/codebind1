@@ -1,0 +1,10 @@
+package com.codebind;
+
+public class Greeting1 {
+	String greeting = "Hello";
+	
+	public String sayHelloWorld(String Name){
+		return greeting+" "+Name;
+	}
+	
+}

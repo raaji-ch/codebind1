@@ -1,0 +1,23 @@
+package com.codebind;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import MyCo.mysamples.HelloWorld;
+import junit.framework.Assert;
+
+public class Apptest {
+
+	@SuppressWarnings("deprecation")
+	@Test
+	public void test() {
+		// create instance of HelloWorld class
+        Greeting h = new Greeting();
+        
+        String result=h.sayHello("Tester");
+        Assert.assertEquals("Not matched...", "Hello Tester", result);
+		
+	}
+
+}

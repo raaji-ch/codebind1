@@ -1,0 +1,12 @@
+package com.codebind;
+
+public class APP
+{
+	public static void main (String[] args )
+	{
+	HelloWorld h = new HelloWorld();
+	long i =40000000000000;
+	
+	System.out.println(h.);
+	}
+}
